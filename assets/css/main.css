@@ -1268,17 +1268,24 @@ body {
     }
 
     .about--options {
-        display: relative;
-		/* flex-direction: column; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-	/* .about--options a {
-		width: 100%;
-	} */
+	.about--options a {
+		margin-bottom: 90px;
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+	}
+    .about--options a:last-child {
+        margin-bottom: 0;
+    }
 
     .about--options h3 {
         position: absolute;
         left: 0px;
-        font-size: 10px;
+        font-size: 14px;
         text-transform: uppercase;
         -webkit-transition: bottom .2s ease-in-out,left .2s ease-in-out;
         transition: bottom .2s ease-in-out,left .2s ease-in-out;
@@ -1799,8 +1806,9 @@ body {
         display:none
     }
 	.l-section {
-		opacity: 1;
-		visibility: visible;
+        opacity: 1;
+        padding-top: 60px;
+        visibility: visible;
 	}
 	.contact {
 		overflow: hidden;
@@ -1854,4 +1862,7 @@ body {
     /* Opera */
     -ms-transform : scale(2);
     /* IE9 */
+}
+.sent-message {
+    padding: 20px 0;
 }

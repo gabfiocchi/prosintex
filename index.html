@@ -307,7 +307,7 @@
                 <!-- checkout formspree.io for easy form setup -->
 
 
-                <form class="work-request" action="https://formspree.io/f/mayapezd" method="POST">
+                <form id="form" class="work-request" method="POST">
 
 
 
@@ -316,7 +316,7 @@
 
 
                     <span class="options-a">
-                      <input id="opt-1" type="checkbox" value="app design">
+                      <input id="opt-1" type="checkbox" value="Auxiliares textiles">
                       <label for="opt-1">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111"
@@ -330,7 +330,7 @@
                       </label>
 
 
-                      <input id="opt-2" type="checkbox" value="graphic design">
+                      <input id="opt-2" type="checkbox" value="Especialidades químicas">
                       <label for="opt-2">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111"
@@ -344,7 +344,7 @@
                       </label>
 
 
-                      <input id="opt-3" type="checkbox" value="motion design">
+                      <input id="opt-3" type="checkbox" value="Productos a pedido">
                       <label for="opt-3">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 111"
@@ -393,8 +393,8 @@
 
                   <div class="work-request--information">
                     <div class="information-name">
-                      <input id="name" type="text" spellcheck="false">
-                      <label for="name">Mensaje</label>
+                      <input id="message" type="text" spellcheck="false">
+                      <label for="message">Mensaje</label>
                     </div>
 
 
@@ -403,6 +403,8 @@
 
                   <input type="submit" value="Enviar Consulta">
                 </form>
+
+                <div id="returnmessage" class="sent-message"></div>
               </div>
             </li>
 
@@ -430,6 +432,7 @@
   <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
   <!-- <script src="assets/js/functions-min.js"></script> -->
   <script src="assets/js/functions.js"></script>
+  <script src="assets/js/contact.js"></script>
 </body>
 
 </html>
