@@ -1,5 +1,5 @@
 // @codekit-prepend "/vendor/hammer-2.0.8.js";
-
+var disableUpdateContent = null;
 $( document ).ready(function() {
 
   // DOMMouseScroll included for firefox support
