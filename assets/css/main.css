@@ -622,7 +622,7 @@ body {
 }
 
 .side-nav li:nth-child(5)::before {
-    content: "Escríbenos"
+    content: "Escribinos"
 }
 
 .side-nav li.is-active {

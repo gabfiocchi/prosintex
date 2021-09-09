@@ -20,7 +20,7 @@
         }
 
         var subject = "Consulta: " + (optMessage.length > 0 ? optMessage.join(', ').trim() : 'Otras consultas');
-        var message = $("#message").val();
+        var message = "De:" + name + "\n\n" + $("#message").val();
         
 
         $("#returnmessage").empty(); // To empty previous error/success message.
